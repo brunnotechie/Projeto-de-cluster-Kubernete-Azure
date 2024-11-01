@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    .box {
+      fill: #f1f1f1;
+      stroke: #ccc;
+      stroke-width: 1px;
+      rx: 5px;
+      ry: 5px;
+    }
+    .service {
+      fill: #4285f4;
+      color: white;
+    }
+    .container {
+      fill: #34a853;
+      color: white;
+    }
+    .text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: #333;
+    }
+  </style>
+  
+  <rect x="50" y="50" width="700" height="500" class="box" />
+  
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="200" height="400" class="service">
+      <title>Microsoft Azure</title>
+    </rect>
+    <text x="100" y="30" class="text" text-anchor="middle">Microsoft Azure</text>
+    
+    <g transform="translate(50, 75)">
+      <rect x="0" y="0" width="100" height="100" class="service">
+        <title>Azure Kubernetes Service (AKS)</title>
+      </rect>
+      <text x="50" y="50" class="text" text-anchor="middle">Azure Kubernetes Service (AKS)</text>
+    </g>
+    
+    <g transform="translate(50, 225)">
+      <rect x="0" y="0" width="100" height="150" class="container">
+        <title>Kubernetes Cluster</title>
+      </rect>
+      <text x="50" y="30" class="text" text-anchor="middle">Kubernetes Cluster</text>
+      
+      <g transform="translate(10, 50)">
+        <rect x="0" y="0" width="80" height="80" class="container">
+          <title>Python Flask</title>
+        </rect>
+        <text x="40" y="40" class="text" text-anchor="middle">Python Flask</text>
+      </g>
+      
+      <g transform="translate(10, 150)">
+        <rect x="0" y="0" width="80" height="80" class="container">
+          <title>Redis</title>
+        </rect>
+        <text x="40" y="40" class="text" text-anchor="middle">Redis</text>
+      </g>
+    </g>
+    
+    <g transform="translate(50, 400)">
+      <rect x="0" y="0" width="100" height="100" class="service">
+        <title>Azure Container Registry (ACR)</title>
+      </rect>
+      <text x="50" y="50" class="text" text-anchor="middle">Azure Container Registry (ACR)</text>
+    </g>
+    
+    <g transform="translate(450, 100)">
+      <rect x="0" y="0" width="200" height="100" class="box">
+        <title>Engenheiro DevOps</title>
+      </rect>
+      <text x="100" y="50" class="text" text-anchor="middle">Engenheiro DevOps</text>
+    </g>
+    
+    <path d="M150,175 L150,225" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+    <path d="M150,325 L150,375" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+    <path d="M250,150 L400,150" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+    <path d="M400,450 L150,450" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+    <path d="M150,325 L250,325" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  </g>
+</svg>
